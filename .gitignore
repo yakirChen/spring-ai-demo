@@ -1,0 +1,74 @@
+### Global
+*~
+.DS_Store
+
+### build \ make
+build/
+mods/
+mlib/
+apps/
+target/
+logs/
+.mvn
+# pom.xml.versionsBackup
+dependency-reduced-pom.xml
+
+### CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-debug/
+
+### JVM
+hs_err_pid*
+
+### IntelliJ
+.idea/*
+!.idea/vcs.xml
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+libs/
+
+### Netbeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*~.nib
+nb-configuration.xml
+
+### STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### Xcode
+*.xcodeproj
+
+### Eclipse
+.project/
+.settings/
+.metadata/
+tmp/
+*.tmp
+*.bak
+*.swp
+.loadpath
+.recommenders
+
+### Gradle
+.gradle/
+
+### Hexo
+Thumbs.db
+db.json
+*.log
+#node_modules/
+public/
+.deploy*/
